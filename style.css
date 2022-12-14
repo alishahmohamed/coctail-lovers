@@ -62,3 +62,7 @@ h3{
     width: fit-content;
     height: fit-content;
 }
+h3{
+    color:white;
+    background-color: rgb(255, 0, 111);
+}
