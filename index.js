@@ -21,6 +21,23 @@ function createHtml(data){
           div.appendChild(i)
           return div
     }
+    fetchData().then(data=>{
+        data.forEach(cocktail => {
+              switch (cocktail.category) {
+                   case 'popular':
+                          popular.appendChild(createHtml(cocktail))
+                          break;
+                    case 'new':
+                          neww.appendChild(createHtml(cocktail))
+                          break;
+                    case 'local':
+                          local.appendChild(createHtml(cocktail))
+                          break;
+                    default:
+                          break;
+              }
+        });
+  })
     
 
     `}
