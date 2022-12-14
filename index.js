@@ -3,7 +3,7 @@ const neww = document.querySelector('#new .disp')
 const local = document.querySelector('#local .disp')
 
 function fetchData(){
-      return fetch('https://my-json-server.typicode.com/asiamohammed/coctail-lovers/cocktails')
+      return fetch('https://my-json-server.typicode.com/alishahmohamed/coctail-lovers/cocktails')
       .then(response => response.json())
       .then(json => json)
 }
