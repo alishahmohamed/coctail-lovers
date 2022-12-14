@@ -21,3 +21,14 @@ input[type="search"]{
     border-radius: 20px;
     padding: 0 1em;
 }
+h2{
+    margin-top:3em;
+    text-align: center;
+}
+
+.disp{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
