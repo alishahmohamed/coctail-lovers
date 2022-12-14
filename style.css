@@ -69,3 +69,7 @@ h3{
 #popular,#new,#local{
     margin-top: 5em;
 }
+.active{
+    color: rgb(255, 0, 111);
+    font-weight: bold;
+}
