@@ -12,5 +12,15 @@ function createHtml(data){
     const html = `
           <img src="${data.image}" alt="${data.name}">
           <h4>${data.name}</h4>
-          
+          div.innerHTML = html
+          const i = document.createElement('i')
+          i.className='fas fa-heart'
+          i.addEventListener('click', () => {
+                i.classList.toggle('active')
+          })
+          div.appendChild(i)
+          return div
+    }
+    
+
     `}
