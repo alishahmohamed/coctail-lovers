@@ -38,6 +38,18 @@ function createHtml(data){
               }
         });
   })
+  document.getElementById('search').addEventListener('keyup', (e) => {
+    const search = e.target.value.toLowerCase()
+    const cards = document.querySelectorAll('.card')
+    cards.forEach(card => {
+          const name = card.querySelector('h4').textContent.toLowerCase()
+          if(name.includes(search)){
+                card.style.display = 'block'
+          }else{
+                card.style.display = 'none'
+          }
+    })
+})
     
 
     `}
