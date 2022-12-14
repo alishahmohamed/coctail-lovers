@@ -6,3 +6,11 @@ function fetchData(){
     .then(response => response.json())
     .then(json => json)
 }
+function createHtml(data){
+    const div = document.createElement('div')
+    div.className='card'
+    const html = `
+          <img src="${data.image}" alt="${data.name}">
+          <h4>${data.name}</h4>
+          
+    `}
