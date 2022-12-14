@@ -32,3 +32,8 @@ h2{
     flex-wrap: wrap;
 
 }
+i{
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
