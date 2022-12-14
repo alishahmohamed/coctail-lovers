@@ -54,3 +54,11 @@ i{
     border-radius: 20px;
     margin:auto;
 }
+#popular{
+    margin:auto;
+}
+h3{
+    padding: 0.5em;
+    width: fit-content;
+    height: fit-content;
+}
