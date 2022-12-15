@@ -2,13 +2,34 @@ const popular = document.querySelector('#popular .disp')
 const neww = document.querySelector('#new .disp')
 const local = document.querySelector('#local .disp')
 
-function fetchData(){
-      return fetch('https://my-json-server.typicode.com/alishahmohamed/coctail-lovers/cocktails')
+function fetchData(){}
+      fetch("https://api.jsonbin.io/v3/b/639abf61dfc68e59d568ac85")
       .then(response => response.json())
-      .then(json => json)
-}
+      .then(data =>{
+            const cocktail = data.record.cocktails 
+            console.log(cocktail);
+       
+            cocktail.forEach(cocktail => {
+                  switch (cocktail.category) {
+                        case 'popular':
+                              popular.appendChild(createHtml(cocktail))
+                              break;
+                        case 'new':
+                              neww.appendChild(createHtml(cocktail))
+                              break;
+                        case 'local':
+                              local.appendChild(createHtml(cocktail))
+                              break;
+                        default:
+                              break;
+                  }
+      })
+});
+     
 
+fetchData()
 function createHtml(data){
+
       const div = document.createElement('div')
       div.className='card'
       const html = `
@@ -25,20 +46,14 @@ function createHtml(data){
       return div
 }
 
-fetchData().then(data=>{
-      data.forEach(cocktail => {
+fetchData()
+ fetch("https://api.jsonbin.io/v3/b/639abf61dfc68e59d568ac85")
+.then(response => response.json())
+.then(data=>{
+      const cocktail = data.record.cocktails
+      cocktail.forEach(cocktail => {
             switch (cocktail.category) {
-                  case 'popular':
-                        popular.appendChild(createHtml(cocktail))
-                        break;
-                  case 'new':
-                        neww.appendChild(createHtml(cocktail))
-                        break;
-                  case 'local':
-                        local.appendChild(createHtml(cocktail))
-                        break;
-                  default:
-                        break;
+                 
             }
       });
 })
@@ -54,4 +69,4 @@ document.getElementById('search').addEventListener('keyup', (e) => {
                   card.style.display = 'none'
             }
       })
-})
+ })
