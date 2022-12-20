@@ -1,20 +1,31 @@
-Cocktail lovers
-Author
-Aisha Mohamed
+# Cocktail lovers
+## Author
+`Aisha Mohamed`
 
-Description
-This is a web application that allows users to view different cocktails. Users can also login they can subscribe to the newsletter they can can also give us a feedback n they can also search for cocktails by name.
+# Description
+This is a web application that allows users to view different cocktails. Users can also login they can subscribe to the newsletter they can also give us a feedback and they can also search for cocktails by name.
 
-Technologies Used
-HTML
-CSS
-JavaScript
-Web API
-Setup instructions
+# Technologies Used
+`HTML`
+
+`CSS`
+
+`JavaScript`
+
+`Web API`
+
+# Setup instructions
 Open the Terminal command line: [CTRL+ALT+T]
 
 Clone this repository
-Change Directory: [cd Cocktail-lovers]
+
+Change Directory:
+
+     cd Cocktail-lovers
+
+Click on this link to run the application.
+
+ https://coctail-lovers.vercel.app/  
 
 Open index.html file on your browser
 
