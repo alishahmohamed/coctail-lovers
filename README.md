@@ -27,15 +27,13 @@ Click on this link to run the application.
 
  https://coctail-lovers.vercel.app/  
 
-Open index.html file on your browser
-
-Contact Informantion
+## Contact Informantion
 Incase of any enquiries or contributions, be sure to email me at alisharuuney01@gmail.com
 
-License
-  MIT Licence
+## License
+  `MIT Licence`
 
-  Copyright (c) 2022 Aisha-Mohamed
+  Copyright (c) 2022 `Aisha-Mohamed`
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
