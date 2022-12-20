@@ -1,6 +1,13 @@
-body{
-    padding: 5em;
-}
+body {
+    background-image: url('https://www.melbourneskydeck.com.au/wp-content/uploads/2022/04/00196MS-Updated-Web-Header-Images-5-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .hideCard{
+    padding-left:100px;
+    padding-top:550px;
+  }
 
 h1{
     color: rgb(255, 0, 111);
