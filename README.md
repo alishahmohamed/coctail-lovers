@@ -3,7 +3,7 @@ Author
 Aisha Mohamed
 
 Description
-This is a web application that allows users to view different cocktails. Users can also search for cocktails by name.
+This is a web application that allows users to view different cocktails. Users can also login they can subscribe to the newsletter they can can also give us a feedback n they can also search for cocktails by name.
 
 Technologies Used
 HTML
