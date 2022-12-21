@@ -3,7 +3,7 @@
 `Aisha Mohamed`
 
 # Description
-This is a web application that allows users to view different cocktails. Users can also login they can subscribe to the newsletter and they can also give us a feedbac.
+This is a web application that allows users to view different cocktails. Users can also login they can subscribe to the newsletter and they can also give us a feedback.
 
 # Technologies Used
 `HTML`
