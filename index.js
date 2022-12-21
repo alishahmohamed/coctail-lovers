@@ -84,8 +84,7 @@ fetchData()
       });
 })
 
-const searchBar = document.getElementById('search')
-searchBar.addEventListener('keyup', (e) => {
+document.getElementById('search').addEventListener('keyup', (e) => {
       const search = e.target.value.toLowerCase()
       const cards = document.querySelectorAll('.card')
       cards.forEach(card => {
@@ -96,4 +95,4 @@ searchBar.addEventListener('keyup', (e) => {
                   card.style.display = 'none'
             }
       })
- })
+})
